@@ -47,6 +47,19 @@ export default function PromptDetailPage({ params }: Params) {
               <li>v1.0 - Initial release</li>
             </ul>
           </div>
+          <div className="rounded-lg border p-4">
+            <h2 className="text-lg font-medium">Reviews</h2>
+            <div className="mt-2 space-y-3">
+              <div className="rounded border p-3">
+                <div className="text-sm font-medium">Bob · ⭐ 5</div>
+                <p className="mt-1 text-sm text-neutral-700">Great prompt, saved me hours!</p>
+              </div>
+              <div className="rounded border p-3">
+                <div className="text-sm font-medium">Alice · ⭐ 4</div>
+                <p className="mt-1 text-sm text-neutral-700">Works well. Looking forward to more examples.</p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <aside className="col-span-12 lg:col-span-4 space-y-4">
