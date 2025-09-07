@@ -75,6 +75,15 @@ export default function PromptDetailPage({ params }: Params) {
             <h3 className="text-sm font-medium uppercase tracking-wide text-neutral-600">Ratings</h3>
             <p className="mt-2 text-sm">⭐ 4.8 (120)</p>
           </div>
+          <div className="rounded-lg border p-4">
+            <h3 className="text-sm font-medium uppercase tracking-wide text-neutral-600">Author</h3>
+            <p className="mt-2 text-sm">Alice · 12 prompts</p>
+            <a href="/seller/prompts" className="mt-3 inline-block rounded border px-3 py-1 text-sm">View profile</a>
+          </div>
+          <div className="rounded-lg border p-4">
+            <h3 className="text-sm font-medium uppercase tracking-wide text-neutral-600">Try in Sandbox</h3>
+            <a href="/sandbox" className="mt-2 inline-block rounded bg-black px-3 py-1 text-white text-sm">Open Sandbox</a>
+          </div>
         </aside>
       </div>
     </main>
